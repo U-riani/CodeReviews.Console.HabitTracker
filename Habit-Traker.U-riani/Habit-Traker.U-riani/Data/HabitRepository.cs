@@ -41,7 +41,6 @@ namespace Habit_Traker.U_riani.Data {
                     //tableCmd.ExecuteNonQuery();
 
                     int rows = Convert.ToInt32(tableCmd.ExecuteScalar());
-                    Console.WriteLine(rows);
 
                     if (rows < 1) {
                         for (int i = 0; i < 100; i++) {
